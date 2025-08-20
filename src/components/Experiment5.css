@@ -1,0 +1,88 @@
+.counter-container {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: #f9f9f9;
+  border-radius: 12px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+}
+
+.course-item {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-info {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.course-title {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.course-desc {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.course-price,
+.course-enrolled {
+  margin-top: 0.3rem;
+  font-size: 0.95rem;
+}
+
+.enroll-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.counter-btn {
+  background: #4facfe;
+  color: white;
+  border: none;
+  font-size: 1.4rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.counter-btn:hover {
+  background: #3a9ee8;
+}
+
+.enroll-count {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.total-price {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background: #fff8e1;
+  padding: 0.8rem;
+  border-radius: 8px;
+}

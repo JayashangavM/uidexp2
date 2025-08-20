@@ -1,0 +1,99 @@
+.course-list-section {
+  margin-bottom: 20px;
+}
+.course-list {
+  padding-left: 20px;
+  margin: 0;
+}
+.calculator-form-group {
+  margin-bottom: 12px;
+}
+.calculator-btn {
+  padding: 12px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-bottom: 12px;
+}
+.calculator-btn:hover {
+  background: #1565c0;
+}
+
+.calculator-container {
+  max-width: 480px;
+  margin: 60px auto;
+  padding: 36px 32px;
+  border: 1.5px solid #1976d2;
+  border-radius: 16px;
+  background: #f4f8fb;
+  box-shadow: 0 4px 24px rgba(25, 118, 210, 0.10);
+}
+.calculator-container h2 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: #1976d2;
+}
+.calculator-input {
+  width: 100%;
+  font-size: 1.3em;
+  margin-bottom: 16px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1.5px solid #1976d2;
+  background: #fff;
+}
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.calculator-buttons button {
+  padding: 18px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 6px;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 2px 6px rgba(25, 118, 210, 0.08);
+}
+.calculator-buttons button:hover, .calculator-btn:hover {
+  background: #1565c0;
+  transform: translateY(-2px) scale(1.04);
+}
+.calculator-btn {
+  padding: 16px 28px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 6px;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  margin-bottom: 18px;
+  margin-top: 8px;
+  box-shadow: 0 2px 6px rgba(25, 118, 210, 0.08);
+}
+.calculator-result {
+  font-weight: bold;
+  margin-top: 18px;
+  font-size: 1.2em;
+  color: #1976d2;
+}
+.course-list-section {
+  margin-bottom: 28px;
+}
+.course-list {
+  padding-left: 24px;
+  margin: 0;
+  font-size: 1.1em;
+}
+.calculator-form-group {
+  margin-bottom: 18px;
+}

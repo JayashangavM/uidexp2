@@ -1,0 +1,19 @@
+.experiment1-container {
+  padding: 20px;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
