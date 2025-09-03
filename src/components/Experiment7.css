@@ -1,0 +1,50 @@
+.weather-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.search {
+  margin: 10px 0;
+}
+
+.search input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.quick-cities button {
+  margin: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.quick-cities .active {
+  background-color: #007bff;
+  color: white;
+}
+
+.current {
+  margin-top: 20px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 5px;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  background: #f8f8f8;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+}
